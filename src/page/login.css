@@ -1,0 +1,35 @@
+.outerbox {
+    background: url(./background.jpg);
+
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-color: #6cff5e3d; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginbox {
+    /* background: rgba(233, 233, 233, 0.4); */
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    margin-top: 120px;
+    border-radius: 8px;
+    margin-bottom: 150px;
+}
+
+label {
+    color: #000000;
+}
+
+.profileimg {
+    box-shadow: 0 2px 6px rgba(65, 11, 16, .15);
+}
+
+.profileimg:hover {
+    box-shadow: 0 3px 12px rgba(65, 11, 16, .15);
+}

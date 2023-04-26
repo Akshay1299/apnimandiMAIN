@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.apnititle
+{
+  color: #1c993d !important;
+  font-size: 20px;
+  font-weight: 700 !important;
+}
+.textcolor
+{
+  color: #fff !important;
+}
+
+
+.cartbox
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.summary
+{
+  font-size: 1.5rem !important;
+  font-weight: 500;
+  text-align: center;
+}
+
+.payment
+{
+  margin-top: 10px;
+  width: 50% !important;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cartitem{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
