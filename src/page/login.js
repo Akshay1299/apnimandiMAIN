@@ -62,8 +62,8 @@ const Login = () => {
       {
         console.log('admin it is')
    
-            window.location.href='http://apnimandi-admin.netlify.app/'
-      //  navigate("/Admin")
+            window.location.href='https://apnimandi-admin.netlify.app/'
+            //  navigate("/Admin")
       }
 
       toast(dataRes.message)
