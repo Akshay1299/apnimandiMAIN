@@ -58,13 +58,13 @@ const Login = () => {
     
       //localStorage.setItem('firstName',dataRes.firstName);
      
-      if(dataRes.data.email=='apnimandiorg@gmail.com')
-      {
-        console.log('admin it is')
+      // if(dataRes.data.email=='apnimandiorg@gmail.com')
+      // {
+      //   console.log('admin it is')
    
-            window.location.href='https://apnimandi-admin.netlify.app/'
-            //  navigate("/Admin")
-      }
+      //       window.location.href='https://apnimandi-admin.netlify.app/'
+      //       //  navigate("/Admin")
+      // }
 
       toast(dataRes.message)
       
