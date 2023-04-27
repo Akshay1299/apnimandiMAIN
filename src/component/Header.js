@@ -35,11 +35,11 @@ const Header = () => {
 
         <div className="flex items-center gap-4 md:gap-7">
           <nav className="gap-4 md:gap-6 text-base md:text-lg hidden md:flex">
-            <Link to={""}>Home</Link>
+            <Link to={""} style={{color:'black'}}>Home</Link>
             
-            <Link to={"https://apnirecipe.netlify.app/"}>Recipe</Link>
-            <Link to={"about"}>About</Link>
-            <Link to={"contact"}>Contact</Link>
+            <Link to={"https://apnirecipe.netlify.app/"} style={{color:'black'}}>Recipe</Link>
+            <Link to={"about"} style={{color:'black'}}>About</Link>
+            <Link to={"contact"} style={{color:'black'}}>Contact</Link>
           </nav>
           <div className="text-2xl text-slate-600 relative">
             <Link to={"cart"}>
