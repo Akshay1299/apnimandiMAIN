@@ -61,7 +61,9 @@ const Login = () => {
       if(dataRes.data.email=='apnimandiorg@gmail.com')
       {
         console.log('admin it is')
-        navigate("/Admin")
+   
+            window.location.href='http://apnimandi-admin.netlify.app/'
+      //  navigate("/Admin")
       }
 
       toast(dataRes.message)
